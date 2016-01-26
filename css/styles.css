@@ -12,6 +12,10 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 /* * Prevents modern browsers from displaying `audio` without controls.
 * Remove excess height in iOS 5 devices. */
 audio:not([controls]) { display: none; height: 0; }
+.sel-idiomas{
+    height: 30px;
+    margin-top: -5px;
+}
 /* * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3, * and Safari 4.
 * Known issue:no IE 6 support. */
 [hidden] { display: none; }
@@ -84,7 +88,7 @@ Lists
 dl, menu, ol, ul { margin: 1em 0; }
 dd { margin: 0 0 0 40px; }
 /* * Addresses paddings set differently in IE 6/7. */
-menu, ol, ul { padding: 0 0 0 40px; }
+menu, ol, ul { padding: 0 30px 0 0; }
 /* * Corrects list images handled incorrectly in IE 7. */
 nav ul, nav ol { list-style: none; list-style-image: none; }
 /* ==========================================================================
@@ -209,14 +213,25 @@ p.text-intro { font-size: 18px; }
     font-family: 'Lora', serif;
     text-shadow: 0 0 3px #000;
 }
+.slider_con_logo{
+    text-align: center;
+}
+.logopbslider0{
+    background: url(../img/pb_core_drilling.png) no-repeat center center;
+    width: 500px;
+    height: 250px;
+    margin: 11% auto 0 auto;
+    display: inline-block;
+    background-size: contain;
+    background-position: center center;
+}
 .logopbslider{
     background: url(../img/pb_core_drilling.png) no-repeat center center;
     width: 500px;
     height: 250px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    margin-top: -15%;
     margin-left: -15%;
     background-size: contain;
     background-position: center center;
@@ -228,15 +243,15 @@ nav { height: 85px; margin-top: 30px; position: relative; }
     height: 97px;
     position: absolute;
     top: -15px;
-    left: 295px;
+    left: 0;
     background-size: contain;
 }
 .responsive-logo { display: hidden; }
 header { background-color: #f4f5fc; }
 header ul { padding-top: 35px; }
-header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
-header ul li a { display: block; margin: 0 25px; color: #4d4959; }
-.r_spacer { margin-right: 180px; }
+header ul li { list-style: none; float: right; text-transform: uppercase; letter-spacing: 2px; }
+header ul li a { display: block; margin: 0 11px; color: #4d4959; }
+.r_spacer { /*margin-right: 180px;*/ }
 .intro { padding: 115px 0; background-color: #fbfbfb; }
 .intro2 { padding: 115px 0; background-color: #282F35; }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }

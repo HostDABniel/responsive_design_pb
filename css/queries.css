@@ -4,6 +4,8 @@ CSS Queries
 
 @media screen and (max-width:640px) {
     .shop-btn { padding: 15px 25px; font-size: 10px; }
+    .logopbslider0{width: 90%;}
+    .herotext{font-size: 37px;left: 0; margin-left: 5%;width: 90%;}
 }
 @media screen and (max-width:1200px) {
     .elloguix{
